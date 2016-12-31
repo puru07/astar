@@ -8,7 +8,7 @@ int main()
 {
 	int weight = 1;
 	int start[2] = {0,0};
-	int goal[2] = {99,99};
+	int goal[2] = {10,10};
 	int arena[2] = {100,100};
 
 	astar problem1 = astar(start, goal, arena, weight);
